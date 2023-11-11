@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mini_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_mini_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -19,7 +19,7 @@ PRODUCT_DEVICE := odroidc4_tab
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
 PRODUCT_MANUFACTURER := hardkernel
 PRODUCT_MODEL := odroid c4
-PRODUCT_NAME := lineage_odroidc4_tab
+PRODUCT_NAME := lmodroid_odroidc4_tab
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \
